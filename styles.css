@@ -1,0 +1,930 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 5px;
+}
+
+#nav {
+    font-size: 16px;
+}
+
+#nav:hover { 
+    color: rgb(251, 140, 96);
+}
+
+#logo { 
+    height: 50px;
+    width: 100px;
+    margin-right: 700px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.45)), url(image/Bg2.jpg);
+}
+
+#h01 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 70px;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+
+
+#reservation {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border: 2px solid red;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#reservation:hover {
+    background-color: rgb(250, 115, 62);
+}
+
+#img2 {
+    height: 350px;
+    width: 400px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#section1,
+#section2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+#para1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+#h2 {
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#reser {
+    height: 30px;
+    width: 35px;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#reser:hover {
+    background-color: rgb(250, 115, 62);
+}
+
+#image2 {
+    height: 350px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.479)), url(image/Bg5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+#para2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.span {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.a2 {
+    text-align: center;
+    border: 2px solid red;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 100px;
+    padding: 5px;
+    width: 80px;
+}
+
+.a2:hover {
+    background-color: rgb(250, 115, 62);
+    color: black;
+}
+
+#a2 {
+    background-color: rgb(250, 115, 62);
+}
+
+.div5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+#para4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.div6 {
+    height: 200px;
+    width: 350px;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#h4 {
+    color: white;
+}
+
+.section4 {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+#one {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.372), rgba(245, 158, 124, 0.463)), url(image/Drinks1.jpg);
+}
+
+#two {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.372), rgba(245, 158, 124, 0.463)), url(image/Drinks2.jpg);
+}
+
+#three {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.372), rgba(245, 158, 124, 0.463)), url(image/Drinks3.jpg);
+}
+
+#four {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.482), rgba(245, 158, 124, 0.568)), url(image/Dinner1.jpg);
+}
+
+#five {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.482), rgba(245, 158, 124, 0.568)), url(image/Dinner2.jpg);
+}
+
+#six {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.482), rgba(245, 158, 124, 0.568)), url(image/Dinner3.jpg);
+}
+
+#seven {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.482), rgba(245, 158, 124, 0.568)), url(image/Lunch1.jpg);
+}
+
+#eight {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.482), rgba(245, 158, 124, 0.568)), url(image/Lunch2.jpg);
+}
+
+#nine {
+    background-image: linear-gradient(rgba(255, 183, 155, 0.482), rgba(245, 158, 124, 0.568)), url(image/Lunch3.jpg);
+}
+
+.div7 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 90px;
+}
+
+#para5 {
+    color: black;
+    font-size: 15px;
+}
+
+#img4 {
+    height: 200px;
+    width: 350px;
+    margin: 15px;
+}
+
+#img4:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.div9 {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+}
+
+.custom {
+    text-align: center;
+}
+
+#img5 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid red;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: left;
+}
+
+#para6 {
+    color: black;
+    font-size: 15px;
+}
+
+#para7 {
+    color: black;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#h5 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+#h6 {
+    text-align: center;
+    color: rgb(250, 115, 62);
+}
+
+#para8 {
+    color: black;
+
+}
+
+.class {
+    display: inline-block;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.div10 {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(250, 115, 62);
+}
+
+#h7 {
+    font-size: 25px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+#pel {
+    color: black;
+}
+
+#para9 {
+    color: lightcoral;
+}
+
+#para10 {
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    clear: both;
+    background-color: rgb(49, 50, 50);
+    height: 290px;
+    width: 100%;
+}
+
+.section7 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#h8 {
+    font-size: 20px;
+    color: white;
+}
+
+#email {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    font-size: 18px;
+    padding: 5px;
+    color: red;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(250, 115, 62);
+    color: white;
+}
+
+.div12 {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+#para11 {
+    text-align: center;
+    padding-top: 27px;
+}
+
+.div1 {
+    background-image: linear-gradient(rgba(8, 8, 8, 0.667), rgba(0, 0, 0, 0.616)), url(image/menuimg1.jpg);
+    height: 450px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 220px;
+}
+
+/* Reservation style css  */
+.div2 {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+
+.contact1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#p1 {
+    color: black;
+    margin-top: 20px;
+}
+
+#op2 {
+    height: 50px;
+    width: 600px;
+    margin-top: 25px;
+    border: 0.1px solid black;
+    border-radius: 2px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+input[type=text],
+input[type=tel],
+input[type=time],
+input[type=date] {
+    width: 600px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+#Contact {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bt {
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+#bt:hover {
+    background-color: rgb(250, 115, 62);
+    color: black;
+}
+
+.div05 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+/*  Staff style css */
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    margin-top: 70px;
+}
+
+.person1 {
+    background-image: url(image/Person_img1.jpg);
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.person2 {
+    background-image: url(image/Person_img2.jpeg);
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.person3 {
+    background-image: url(image/Person_img3.jpeg);
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.person1:hover .person {
+    display: block;
+}
+
+.person2:hover .person {
+    display: block;
+}
+
+.person3:hover .person {
+    display: block;
+}
+
+.person {
+    color: white;
+    transition: 5s;
+    background-color: rgb(255, 122, 69);
+    display: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 185px 15px 15px 15px;
+}
+
+.person img {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb {
+    height: 70px;
+    width: 70px;
+}
+
+.insta {
+    height: 100px;
+    width: 100px;
+}
+
+/*  Contact style css */
+#email1 {
+    width: 600px;
+    height: 50px;
+    margin-top: 25px;
+    border: 0.5px solid black;
+}
+
+textarea {
+    width: 600px;
+}
+
+#op2 {
+    margin-bottom: 25px;
+}
+
+#message {
+    border: 2px solid red;
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#message:hover {
+    background-color: rgb(250, 115, 62);
+    color: black;
+}
+
+.message {
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Blog style css */
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.blog {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.blog div:hover {
+    color: white;
+}
+
+#blog1 {
+    color: rgb(250, 115, 62);
+    font-size: 15px;
+}
+
+#blog2 {
+    color: black;
+    font-size: 15px;
+}
+
+#blog2:hover {
+    color: white;
+}
+
+.child {
+    border: 0.5px solid black;
+    text-align: center;
+    transition: 1s;
+    background-position: right;
+    background-size: 900px;
+    color: black;
+}
+
+.child:hover {
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.605), rgba(0, 0, 0, 0.509)), url(image/Blogimg_1.jpg);
+    color: white;
+}
+
+.child1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.child1 a {
+    border: 2px solid red;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.child1 a:hover {
+    background-color: rgb(250, 115, 62);
+    color: black;
+}
+
+/* Single Blog style css */
+#p0 {
+    color: black;
+    font-size: 14px;
+}
+
+#p2 {
+    margin-left: 50px;
+    color: black;
+}
+
+#p9 {
+    color: black;
+    font-size: 13px;
+    margin-right: 250px;
+}
+
+.sing2 {
+    text-align: center;
+    margin-left: 550px;
+    border: 1px solid black;
+    background-color: rgb(250, 115, 62);
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+}
+
+#sing1 {
+    background-image: url(image/Blogsingle.jpg);
+    height: 400px;
+    width: 700px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#single {
+    width: 60%;
+    float: left;
+    margin-left: 25px;
+}
+
+.single1 {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.single2 {
+    text-justify: auto;
+    margin-left: 50px;
+}
+
+.single3 {
+    margin-left: 50px;
+}
+
+#span {
+    color: red;
+    font-weight: bold;
+}
+
+.avatar {
+    display: flex;
+    text-justify: auto;
+}
+
+.avatar1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+#admin {
+    margin-left: 100px;
+}
+
+.reply {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.search {
+    width: 250px;
+    height: 40px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+#name {
+    height: 40px;
+    width: 350px;
+}
+
+#area {
+    width: 350px;
+}
+
+#rightsidebar {
+    float: right;
+}
+
+.a3 {
+    background-color: rgba(211, 211, 211, 0.299);
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+.a3:hover {
+    background-color: rgb(250, 115, 62);
+    color: black;
+}
+
+.a4 {
+    text-decoration: none;
+    color: black;
+}
+
+.a4:hover {
+    color: rgb(250, 115, 62);
+}
+
+.send {
+    padding: 15px;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: red;
+}
+
+.send:hover {
+    background-color: rgb(250, 115, 62);
+    color: black;
+}
+
+.clock {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.sign4 {
+    margin-bottom: 100px;
+}
+
+.recent {
+    display: flex;
+    text-justify: auto;
+    margin: 15px;
+}
+
+#img0 {
+    margin-right: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+
+    #logo { 
+        margin-left: 140px;
+    }
+
+    .menu {
+        height: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #h01 {
+        font-size: 30px;
+    }
+
+    #img2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 250px;
+    }
+
+    #para2 {
+        font-size: 25px;
+    }
+
+    #p1 {
+        text-align: center;
+    }
+
+    .div5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div5 .a2 {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div9 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div10 {
+        display: none;
+    }
+
+    .footer {
+        height: 850px;
+    }
+
+    .section7 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    #para11 {
+        font-size: 13px;
+    }
+
+    /* Reservation Media Query */
+    .div1 {
+        height: 370px;
+    }
+
+    input[type=text],
+    input[type=tel],
+    input[type=time],
+    input[type=date] {
+        width: 300px;
+        height: 30px;
+    }
+
+    #op2 {
+        height: 30px;
+        width: 300px;
+    }
+
+    #Contact {
+        text-align: center;
+    }
+
+    /* Staff Media Query */
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Contact Media Query */
+    #email1 {
+        width: 300px;
+        height: 30px;
+        margin-top: 15px;
+        border: 0.5px solid black;
+    }
+    
+    textarea {
+        width: 300px;
+        height: 100px;
+    }
+
+    /* Blog Media Query */
+    .container2 { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
